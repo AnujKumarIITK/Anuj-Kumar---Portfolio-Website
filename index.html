@@ -1,0 +1,870 @@
+<!--
+  #####------------------- HTML File index.html --------------------##### 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!----- Primary Meta Tags ----->
+  <title>Anuj Kumar - Portfolio Website</title>
+  <meta name="title" content="Anuj Kumar - Personal Portfolio">
+  <meta name="description" content="This is a personal portfolio for Anuj Kumar, a Web Developer and Software Engineer.">
+
+  <!----- Favicon ----->
+  <link rel="shortcut icon" type="image/svg+xml" href="./assets/images/photo1.png">
+
+  <!----- Google Fonts link ----->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+
+  <!-- Custom CSS Link ----->
+  <link rel="stylesheet" href="./style.css">
+
+  <!----- Preload Images ----->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!---------- PRELOADER ---------->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+  <!---------------- HEADER ---------------->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#home" class="logo">
+        <img src="./assets/images/logo.jpg" width="90" height="30" alt="logo">
+      </a>
+
+      <nav class="navbar"  data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.jpg" width="90" height="30" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Skillset</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="#review" class="navbar-link" data-nav-link>Achievements</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#contact" class="btn btn:hover">
+        <span class="span">Let's Connect</span>
+
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+  <!---------------- MAIN ---------------->
+
+  <main>
+    <article>
+
+      <!----- HERO ----->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/hero-banner.png" width="500" height="680" alt="Anuj Kumar" class="img-cover">
+            </div>
+
+            <span class="span title">Anuj Kumar</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title">Innovation Starts Where My Code Begins.</h1>
+
+            <div class="wrapper">
+              <a href="https://drive.google.com/file/d/1v5wR3QuuXlfGjrZCAnUUVpzY1fbt0R3t/view?usp=drive_link" class="btn btn:hover">
+                <span class="span">Download Resume</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+
+              <p class="hero-text">
+                Developing Web Applications where Creativity meets Logic and Performance meets Perfection.
+              </p>
+            </div>
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+      <!----- Skillset ----->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.webp" width="180" height="200" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    <br>
+                    <br>
+                    Data Structures <br> 
+                    and Algorithms [DSA]
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.jpg" width="220" height="180" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    <br>
+                    <br>
+                    Full Stack <br> 
+                    Web Development <br>
+                    [MERN Stack]
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="200" height="200" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    <br>
+                    Computer Science <br>
+                    Fundamentals <br>
+                    [DBMS, OS, CN, OOPS]
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="220" height="220" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    <br>
+                    <br>
+                    System <br>
+                    Design <br>
+                    [Low <br> 
+                    Level <br> 
+                    Design]
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!----- ABOUT ----->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awward">My Learning Path</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Tech Stack</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="exhibition">Certificates</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/about-banner.jpeg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    Software Engineer <br>
+                    Developer, Creator & Innovator.
+                  </h2>
+
+                  <p class="section-text">
+                    I'm a software engineer with a deep curiosity for how things work. I'm constantly learning new technologies and 
+                    seeking out new challenges. This portfolio showcases my journey, my capabilities, and what I'm building right now. Thanks for visiting.
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Anuj Kumar</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5">7007152401</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">anujk24@iitk.ac.in</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="https://www.linkedin.com/in/i-am-anuj-kumar/" class="social-link h6" title="LinkedIn">Ln.</a>
+                        <a href="https://github.com/AnujKumarIITK" class="social-link h6" title="GitHub">Gh.</a>
+                        <a href="https://leetcode.com/u/Anuj_Kumar023/" class="social-link h6" title="LeetCode">Lc.</a>
+                        <a href="https://codeforces.com/profile/cp_prime" class="social-link h6" title="Codeforces">Cf.</a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                  My primary software development toolkit.
+                  </h3>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Data Structures and Algorithms [DSA]</span>
+
+                        <span class="value">90%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Web Development [MERN Stack]</span>
+
+                        <span class="value">80%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Core Fundamentals [DBMS, OS, CN, OOPS]</span>
+
+                        <span class="value">90%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">System Design [LLD]</span>
+
+                        <span class="value">90%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="./assets/images/skill-banner.webp" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="awward">
+
+              <h2>
+                From a foundational Diploma in EE to a B.Tech. at JSSATE Noida, my goal has been to continuously deepen my expertise. 
+                This led me to prepare for the GATE, successfully securing admission to the M.Tech. programme at IIT Kanpur, 
+                where I am now tackling advanced, specialized challenges.
+                <br>
+                <br>
+              </h2>
+              <h2>
+                M.Tech. | 2024 - 2026 : IIT Kanpur 2nd year (Currently Pursuing)
+              </h2>
+              <h2>
+                B.Tech. | 2019 - 2022 : JSS Academy of Technical Education, Noida | 8.07 CPI [EE] (Distinction)
+              </h2>
+              <h2>
+                Diploma | 2016 - 2019 : Govt. Polytechnic Shahjahanpur | 8.04 CPI [EE] (Honors)
+              </h2>
+
+            </div>
+
+            <div class="tab-content" data-tab-content="exhibition">
+              <ul class="grid-list">
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 275;" data-tilt>
+                      <img src="./assets/images/certificate-1.png" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 275;" data-tilt>
+                      <img src="./assets/images/certificate-2.png" width="350" height="100" loading="lazy" alt="video"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 275;" data-tilt>
+                      <img src="./assets/images/certificate-3.png" width="376" height="200" loading="lazy" alt="music"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 275;" data-tilt>
+                      <img src="./assets/images/certificate-4.png" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 275;" data-tilt>
+                      <img src="./assets/images/certificate-5.png" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 275;" data-tilt>
+                      <img src="./assets/images/certificate-6.png" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!----- CTA ----->
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Let's Work Together On Your Next Project!
+          </h2>
+
+          <a href="#contact" class="btn btn:hover">
+            <span class="span">Hire Me Now</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+      <!----- PROJECTS ----->
+
+      <section class="section-project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1500; --height: 750;">
+                <img src="./assets/images/project-1.jpeg" width="1500" height="750" loading="lazy"
+                  alt="Tic Tac Toe Game" class="img-cover">
+
+                <a href="https://tic-tac-toe-game-1112f5.netlify.app/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web Development Project</p>
+
+                <h3 class="title h3">
+                  <a href="https://tic-tac-toe-game-1112f5.netlify.app/" class="card-title">Tic Tac Toe Game</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1500; --height: 750;">
+                <img src="./assets/images/project-2.jpeg" width="1500" height="750" loading="lazy"
+                  alt="Rock Paper & Scissors Game" class="img-cover">
+
+                <a href="https://rock-paper-scissors-game-e04e5.netlify.app/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web Development Project</p>
+
+                <h3 class="title h3">
+                  <a href="https://rock-paper-scissors-game-e04e5.netlify.app/" class="card-title">Rock Paper & Scissors Game</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1500; --height: 750;">
+                <img src="./assets/images/project-3.jpeg" width="1500" height="750" loading="lazy"
+                  alt="Simon Says Game" class="img-cover">
+
+                <a href="https://simon-says-game-6c815f.netlify.app/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web Development Project</p>
+
+                <h3 class="title h3">
+                  <a href="https://simon-says-game-6c815f.netlify.app/" class="card-title">Simon Says Game</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1500; --height: 750;">
+                <img src="./assets/images/project-4.jpeg" width="1500" height="750" loading="lazy"
+                  alt="Amazon Website Clone" class="img-cover">
+
+                <a href="https://amazon-clone-31c1c9.netlify.app/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web Development Project</p>
+
+                <h3 class="title h3">
+                  <a href="https://amazon-clone-31c1c9.netlify.app/" class="card-title">Amazon Website Clone</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1800; --height: 900;">
+                <img src="./assets/images/project-5.jpeg" width="1800" height="900" loading="lazy"
+                  alt="Spotify - Web Player: Music for everyone" class="img-cover">
+
+                <a href="https://spotify-clone-3a74b9.netlify.app/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web Development Project</p>
+
+                <h3 class="title h3">
+                  <a href="https://spotify-clone-3a74b9.netlify.app/" class="card-title">Spotify - Web Player: Music for everyone</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1500; --height: 750;">
+                <img src="./assets/images/project-6.png" width="1500" height="750" loading="lazy"
+                  alt="Photography Sidebar Menu" class="img-cover">
+
+                <a href="https://photography-sidebar-menu-5a550e.netlify.app/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web Development Project</p>
+
+                <h3 class="title h3">
+                  <a href="https://photography-sidebar-menu-5a550e.netlify.app/" class="card-title">Photography Sidebar Menu</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+      <!----- Achivements ----->
+
+      <section class="section testi" aria-label="what our client says" id="review">
+        <div class="container">
+
+          <div class="testi-content">
+
+            <blockquote class="title h4 section-text">
+              &ldquo; My philosophy is 'Discipline unlocks Potential.' I secured 1st rank in my diploma. Receiving a gold medal from Cabinet Minister
+              Suresh Kumar Khanna was a pivotal moment of self-belief that affirmed my potential and propelled me toward my goal of reaching IIT. &rdquo;
+            </blockquote>
+
+            <div class="profile-card">
+              <figure class="card-banner img-holder" style="--width: 50; --height: 50;">
+                <img src="./assets/images/myself.png" width="50" height="50" loading="lazy" alt="Anuj Kumar"
+                  class="img-cover">
+              </figure>
+
+              <div>
+                <p class="title h5 card-title">Anuj Kumar</p>
+
+                <p class="card-subtitle">M.Tech. Candidate, IIT Kanpur</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!----- CONTACT ----->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <form action="https://formspree.io/f/manpgdov" method="post" class="contact-form">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="on" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="on" required
+                class="input-field">
+
+              <input type="tel" name="phone" placeholder="Phone" autocomplete="on" class="input-field">
+
+              <textarea name="message" placeholder="Enter massges" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn:hover">
+                <span class="span">Get A Quote</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11798.596132246017!2d80.23591594136582!3d26.511784428604308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1761161533858!5m2!1sen!2sbd" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">7007152401</span>
+
+                  <span class="title h6">7052029284</span>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    Hall 11 IIT Kanpur, 
+                    Kanpur 208016, Uttar Pradesh, India
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">anujk24@iitk.ac.in</span>
+
+                  <span class="title h6">anujkumarbro002@gmail.com</span>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!--------------- FOOTER --------------->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        Design By @AnujKumarIITK - 2025
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+  <!---------- CUSTOM CURSOR ---------->
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+  <!----- Custom JS link ----->
+  <script src="./app.js"></script>
+
+  <!----- ionicon link ----->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- #####------------------- End of app.js --------------------##### -->
